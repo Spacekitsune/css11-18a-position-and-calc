@@ -1,0 +1,59 @@
+body {
+    background-color: cornflowerblue;    
+}
+
+.all {
+  width: 800px;
+  margin: auto;   
+}
+
+.text {
+    position: fixed;
+    z-index: 2;
+    top: 0%;
+    left: 50%;
+    margin-top: 0px; 
+    margin-left: -250px;
+}
+
+.parent1, .parent2{
+    background-color: orange;
+    height: 600px;
+    width: 800px;
+    border: orange solid 5px;
+    margin-top: 50px;  
+}
+
+.parent1 {
+    margin-top: 100px;
+}
+
+.cube1, .cube2, .cube3, .cube4 {
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+
+.cube2 {
+    top:300px;    
+}
+
+.cube3{
+    left: 650px;
+    bottom: 300px;
+}
+
+.cube4{
+    left:650px;
+    bottom: 0px;
+}
+
+.cube {
+    background-color: white;
+    width: calc(100% - 350px);
+    height: calc(100% - 250px);
+    position: relative;
+    top: 125px;
+    left: 175px;
+}
